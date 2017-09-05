@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>continer</h1>
+    Grid Layout Systemの根幹要素。
     <div class="container" style="background-color: mediumpurple; color: white; font-weight: bold">
         .containerを指定した。
         <span>適当なテキスト</span>
@@ -17,6 +18,20 @@
     <div class="container-fluid" style="background-color: mediumpurple; color: white; font-weight: bold">
         .container-fluidを指定した。
         <span>適当なテキスト</span>
+    </div>
+    <hr>
+    <div class="container" style="background-color: mediumpurple; color: white; font-weight: bold">
+        <span>そとがわ.container</span>
+        .container(-fluid)はネストさせることができるらしいが、あまりやらないだろう。とのこと。
+        <div class="container" style="background-color:purple"><span>うちがわ.container</span></div>
+        <div class="container-fluid" style="background-color: crimson"><span>うちがわ.container-fluid</span></div>
+    </div>
+    <hr>
+    <div class="container-fluid" style="background-color: mediumpurple; color: white; font-weight: bold">
+        <span>そとがわ.container-fluid</span>
+        .container(-fluid)はネストさせることができるらしいが、あまりやらないだろう。とのこと。
+        <div class="container" style="background-color:purple"><span>うちがわ.container</span></div>
+        <div class="container-fluid" style="background-color: crimson"><span>うちがわ.container-fluid</span></div>
     </div>
 </body>
 </html>
