@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grid Layout</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+<body>
+    <h1>Grid Layout</h1>
+    <style>
+        .col {
+            background-color: mediumpurple;
+            font-weight: bold;
+            color: white;
+            border: 2px solid purple;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                col 1 of 3<br>
+                .rowは`display: flex`および`flex-wrap: wrap`が指定されている。
+            </div>
+            <div class="col">
+                col 2 of 3<br>
+                .colは`flex-basis`、`flex-grow`が指定されている。
+                あと`max-width: 100%`が指定されている。
+            </div>
+            <div class="col">
+                col 3 of 3<br>
+                .rowの中で、.col同士が同じ幅、同じ間隔に配置される。
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
