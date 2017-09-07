@@ -33,6 +33,28 @@
                 .rowの中で、.col同士が同じ幅、同じ間隔に配置される。
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 colored">
+                rowの中は12の列で分割できるという概念がある。<br>
+                .{class-prefix}-{number}という書式で、numberに占める列の数を指定する。
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 colored">
+                class-prefixにはcolまたはcol-{breakdownKeyword}が入る。
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 colored">
+                breakdownKeywordは4種類あり、スクリーンサイズに応じた指定ができるようになっている。
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 colored">
+                スクリーンサイズは「extra small, small, medium, large, extra large」の5種類ある。
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 colored">
+                小さい領域から設定していく、という考え方。
+            </div>
+            <div class="col colored">
+                ちなみに、numberを指定しない場合、残りの空間を上手に埋めてくれる。
+            </div>
+        </div>
     </div>
 </body>
 </html>
