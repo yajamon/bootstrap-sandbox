@@ -10,7 +10,7 @@
 <body>
     <h1>Grid Layout</h1>
     <style>
-        .col {
+        .colored {
             background-color: mediumpurple;
             font-weight: bold;
             color: white;
@@ -19,16 +19,16 @@
     </style>
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col colored">
                 col 1 of 3<br>
                 .rowは`display: flex`および`flex-wrap: wrap`が指定されている。
             </div>
-            <div class="col">
+            <div class="col colored">
                 col 2 of 3<br>
                 .colは`flex-basis: 0`、`flex-grow: 1`が指定されている。
                 あと`max-width: 100%`が指定されている。
             </div>
-            <div class="col">
+            <div class="col colored">
                 col 3 of 3<br>
                 .rowの中で、.col同士が同じ幅、同じ間隔に配置される。
             </div>
